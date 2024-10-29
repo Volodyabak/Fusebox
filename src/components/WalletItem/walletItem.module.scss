@@ -1,0 +1,65 @@
+.walletsItem {
+  align-items: center;
+  background-color: #262626;
+  border-radius: 15px;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 50px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 0px 10px 0px 5px;
+  position: relative;
+  will-change: var(--framer-will-change-override, transform);
+}
+
+.walletsItemInfo {
+  align-items: center;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.walletsItemInfo img {
+  width: 40px;
+  height: 40px;
+}
+
+.qrcode {
+  background-color: #444a54 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  cursor: pointer;
+  padding: 5px 10px !important;
+  position: relative;
+  font-size: 12px !important;
+  width: fit-content !important;
+  max-width: unset !important;
+  min-width: unset !important;
+  font-variation-settings: "wght" 400;
+  border: none;
+}
+
+w3m-connect-button > wui-connect-button > button {
+  background-color: #444a54 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+  cursor: pointer;
+  padding: 5px 10px !important;
+  position: relative;
+  font-size: 12px !important;
+  width: fit-content !important;
+  max-width: unset !important;
+  min-width: unset !important;
+  font-variation-settings: "wght" 400;
+  border: none;
+}

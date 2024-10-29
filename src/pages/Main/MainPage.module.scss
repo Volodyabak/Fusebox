@@ -1,0 +1,77 @@
+.mainWrapper {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1280px;
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: #fff solid 1px;
+  border-radius: 38px;
+}
+
+.mainTitle {
+  font-size: 42px;
+  font-variation-settings: "wght" 300;
+  margin: 40px 0 0 40px;
+}
+
+.mainTitle > span {
+  font-variation-settings: "wght" 600;
+}
+
+.downloadSection {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+  flex-wrap: wrap;
+}
+
+.downloadSectionLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.downloadSectionLeft > p {
+  font-size: 21px;
+  color: black;
+  padding: 0;
+}
+
+.downloadLinks {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 421px) {
+  .downloadSection {
+    padding: 20px 40px;
+    gap: 16px;
+  }
+  .downloadSectionLeft {
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .mainTitle {
+    font-size: 30px;
+    max-width: 70%;
+    margin: 24px 0 0 32px;
+  }
+
+  .downloadSection {
+    padding: 16px 20px;
+    gap: 12px;
+  }
+  .downloadSectionLeft {
+    gap: 12px;
+  }
+  .downloadSectionLeft > img {
+   max-height: 30px;
+  }
+}

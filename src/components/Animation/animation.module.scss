@@ -1,0 +1,22 @@
+.mainAnimation {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
+  top: -1%;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 421px) {
+  iframe {
+    width: 130%;
+    transform: translateX(-20%);
+  }
+}
+@media screen and (max-width: 420px) {
+  .mainAnimation {
+    width: 100%;
+    transform: translateY(-10%);
+  }
+}
